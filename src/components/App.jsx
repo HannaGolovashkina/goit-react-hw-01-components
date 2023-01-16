@@ -3,6 +3,8 @@ import Section from "./Section/Section";
 import Profile from "./Profile/Profile";
 import Statistics from "./Statistics/Statistics";
 import data from "./Statistics/data.json";
+import FriendList from "./FriendList/FriendList"
+import friends from "./FriendList/friends.json"
 
 export const App = () => {
   return (
@@ -23,6 +25,11 @@ export const App = () => {
       <Section>
         <Statistics stats={data} />
       </Section>
+
+      <Section title={"Task-3 'Friend list'"}>
+        <FriendList friends={friends} />
+      </Section>
+      
     </div>
   );
 };
