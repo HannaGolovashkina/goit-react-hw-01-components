@@ -2,16 +2,6 @@
 import PropTypes from "prop-types";
 import css from './profile.module.css';
 
-// const userinfo =({username, tag, location, avatar, stats})=> {
-//     return <Profile
-//   username={user.username}
-//   tag={user.tag}
-//   location={user.location}
-//   avatar={user.avatar}
-//   stats={user.stats} />
-// }
-// export default userinfo;
-
 export default function Profile({
     username,
     tag,
@@ -66,5 +56,3 @@ Profile.propTypes ={
       views: PropTypes.number,
       likes: PropTypes.number,
   }))}
-
-// export default Profile;
